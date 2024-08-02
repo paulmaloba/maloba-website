@@ -1,0 +1,89 @@
+body{
+    background: #001e4d;
+    padding: 0;
+    margin: 0;
+}
+.header img{
+    width: 70px;
+    height: 70px;
+    border-radius: 20px;
+}
+.header{
+    background: skyblue;
+    align-items: center;
+    
+}
+#im1{
+    position: absolute;
+    top: 8px;
+    left: 0;
+
+}
+#im2{
+    position: absolute;
+    top: 8px;
+    right: 0;
+  
+    
+}
+.logo h2{
+    font-size: 40px;
+    position: absolute;
+    left: 30%;
+    top: 0;
+    color: rgba(128, 8, 112, 0.432);
+}
+.header{
+    min-height: 40px;
+    padding-top: 30px;
+    border-bottom: red 5px solid;
+    border-top: red 5px solid;
+}
+.content{
+    font-size: 30px;
+    color: white;
+}
+#welcome{
+    color: black;
+    position: relative;
+    left: 30%;
+}
+h1 span{
+    color: rgb(255, 255, 255);
+    position: relative;
+    left: -10%;
+}
+.info p1{
+    color: red;
+}
+.info p2{
+    color: violet;   
+}
+.info p3{
+    color: orange;
+}
+#change{
+    position: absolute;
+    background: gray;
+    left: 20%;
+}
+.start button{
+    font-size: 29px;
+    position: absolute;
+    color: white;
+    left: 40%;
+    font-weight: 500;
+    margin: 10px 0;
+    cursor: pointer;
+    background: skyblue;
+    transition: all 0.2s;
+    
+}
+.start button:hover{
+    move: top;
+    border-radius: 20px;
+    border: 5px solid skyblue;
+    background: #001e4d;
+    color: white;
+
+}
