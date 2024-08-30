@@ -11,7 +11,9 @@ body{
 .header{
     background: skyblue;
     align-items: center;
-    
+    padding-top: 30px;
+    border-bottom: red 5px solid;
+    border-top: red 5px solid;
 }
 #im1{
     position: absolute;
@@ -33,12 +35,7 @@ body{
     top: 0;
     color: rgba(128, 8, 112, 0.432);
 }
-.header{
-    min-height: 40px;
-    padding-top: 30px;
-    border-bottom: red 5px solid;
-    border-top: red 5px solid;
-}
+
 .content{
     font-size: 30px;
     color: white;
@@ -80,10 +77,44 @@ h1 span{
     
 }
 .start button:hover{
-    move: top;
     border-radius: 20px;
     border: 5px solid skyblue;
     background: #001e4d;
     color: white;
 
+}
+
+/* responsive adjustments for mobile phones */
+
+@media only screen and (max-width: 768px) {
+    .header img {
+        width: 50px;
+        height: 50px;
+    }
+    .logo h2 {
+        font-size: 24px;
+        left: 50%;
+        transform: translate(-50%);
+    }
+    .content{
+        font-size: 24px;
+    }
+    #welcome, h1 span, .start button{
+        left: 0;
+        text-align: center;
+        font-size: 24px;
+        width: 100%;
+        position: relative;
+    }
+    #change{
+        left: 0;
+        width: 100%;
+        text-align: center;
+        position: relative;
+    }
+    .start button {
+        font-size: 24px;
+        margin-top: 20px;
+    }
+    
 }

@@ -2,7 +2,7 @@ body{
     background: gray;
 }
 center{
-    background: backslateblue;
+    
     width: 100%;
     border-radius: 8px;
    
@@ -40,7 +40,7 @@ center{
 .log h1{
     position: absolute;
     right: 40%;
-    font-weight: bpld;
+    font-weight: bold;
     cursor: pointer;
     transition: All 0.2s;
     top: -4px;
@@ -53,7 +53,6 @@ width: 80%;
 transition: all 0.2s;
 }
 .courses button:hover{
-    move: bottom;
     border: 5px solid white;
     background: skyblue;
     cursor: pointer;
@@ -66,4 +65,44 @@ transition: all 0.2s;
 .courses:hover{
 
 
+}
+
+/* responsive adjustment for mobile phones */
+
+@media only screen and (max-width: 768px) {
+    .courses {
+        font-size: 24px;
+        min-height: 80px;
+        width: 100%;
+        margin: 10px auto;
+    }
+    .logo {
+        padding-top: 20px;
+        text-align: center;
+    }
+    #im2, #im1 {
+        position: relative;
+        top: 10px;
+        right: 0;
+        left: 0;
+        margin: 0 auto;
+        display: block;
+        width: 60px;
+    }
+    .log h1{
+        right: 0;
+        left: 0;
+        position: relative;
+        font-size: 28px;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .courses button {
+        font-size: 24px;
+        width: 100%;
+    }
+    .courses button:hover {
+        font-size: 28px;
+        width: 100%;
+    }
 }
